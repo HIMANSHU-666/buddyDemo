@@ -73,6 +73,7 @@
                                             </tr>
                                         </thead>
                                         <tbody>
+                                            <tr>
                                             <td>1</td>
                                             <td>naman</td>
                                             <td>bbb</td>
@@ -82,6 +83,7 @@
                                             <td>55</td>
                                             <td>55</td>
                                             <td><button class="btn btn-dark btn-sm" >Print</button></td>
+                                            </tr>
                                         </tbody>
                                     </table>
                                 </div>

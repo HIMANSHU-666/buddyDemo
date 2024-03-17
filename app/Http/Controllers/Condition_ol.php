@@ -21,7 +21,9 @@ class Condition_ol extends Controller
     }
 
     public function view_ol(){
-        return view('view_COL');
+        $data = Conditional_ol_Model::orderBy('id', 'DESC')->where(['del_status' => 0, 'status' => 1])->get();
+
+        return view('view_COL', ['pagedata' => $data]);
     }
 
     public function add_condition_ol(Request $request)
