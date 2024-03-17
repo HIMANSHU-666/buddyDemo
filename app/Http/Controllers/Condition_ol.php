@@ -20,6 +20,10 @@ class Condition_ol extends Controller
         return view('create_ol');
     }
 
+    public function view_ol(){
+        return view('view_COL');
+    }
+
     public function add_condition_ol(Request $request)
     {
 

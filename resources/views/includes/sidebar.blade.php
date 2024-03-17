@@ -44,7 +44,7 @@
 
                     <ul id="coursesDropdown" class="menu-sub collapse">
                         <li class="menu-item">
-                            <a href="{{ url('create_course_category') }}" class="menu-link" target="_self">
+                            <a href="{{ url('view_ol') }}" class="menu-link" target="_self">
                                 <div data-i18n="Create Route">View Letter</div>
                             </a>
                         </li>

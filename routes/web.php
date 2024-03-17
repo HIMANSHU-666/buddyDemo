@@ -209,5 +209,7 @@ Route::get('gen_pdf', [PDFController::class, 'generatePDF']);
 
 Route::get('create_ol',[Condition_ol::class, 'view_form']);
 Route::post('add_ol',[Condition_ol::class, 'add_condition_ol']);
+Route::get('view_ol',[Condition_ol::class, 'view_ol']);
+
 
 
