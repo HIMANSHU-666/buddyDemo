@@ -39,7 +39,7 @@ class Condition_ol extends Controller
             "course_name" => $request->course_name,
             "duration_sem" => $request->duration_sem,
             "duration_year" => $request->duration_year,
-            "commencement_date" => $request->commencment_date,
+            "commencement_date" => $request->commencement_date,
             "completion_date" => $request->completion_date,
             "registeration_fee" => $request->registeration_fee,
             "hos_mess_fee" => $request->hos_mess_fee,

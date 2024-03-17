@@ -759,7 +759,7 @@
 
                                                 <label class="form-label">Registeration Fee</label>
 
-                                                <input class="form-control" type="text" name="Registeration Fee" placeholder="Registeration Fee" required>
+                                                <input class="form-control" type="text" name="Registeration_fee" placeholder="Registeration Fee" required>
 
                                             </div>
 
@@ -771,7 +771,7 @@
 
                                                 <label class="form-label">Hostel and Mess Fee</label>
 
-                                                <input class="form-control" type="text" name="hos_mess_Fee" required>
+                                                <input class="form-control" type="text" name="hos_mess_fee" required>
 
                                             </div>
 
