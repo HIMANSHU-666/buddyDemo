@@ -60,7 +60,7 @@
 
                                         <thead>
 
-                                            <tr>
+                                           
                                                 <th>Ref</th>
                                                 <th>student</th>
                                                 <th>scholarship(%)</th>
@@ -70,7 +70,7 @@
                                                 <th>annual tution fee</th>
                                                 <th>tution fee with scholarship</th>
                                                 <th>action</th>
-                                            </tr>
+                                           
                                         </thead>
                                         <tbody>
                                             <tr>
