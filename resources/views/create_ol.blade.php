@@ -759,7 +759,7 @@
 
                                                 <label class="form-label">Registeration Fee</label>
 
-                                                <input class="form-control" type="text" name="Registeration_fee" placeholder="Registeration Fee" required>
+                                                <input class="form-control" type="text" name="registeration_fee" placeholder="Registeration Fee" required>
 
                                             </div>
 
