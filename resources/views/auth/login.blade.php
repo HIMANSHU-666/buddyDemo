@@ -57,7 +57,7 @@
                 <span class="app-brand-logo demo">
 
                 </span>
-                <img src="{{ asset('assets/img/logo/byb_logo.png') }}" alt="Logo" width="150">
+                <img src="https://upload.wikimedia.org/wikipedia/en/4/41/SVIET-transparent-Logo.png" alt="Logo" width="150">
 
               </a>
             </div>
