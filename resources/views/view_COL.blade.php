@@ -80,7 +80,7 @@
                                             <tr>
                                             <td>{{$data->ref_no}}</td>
                                             <td>{{$data->stu_name}}</td>
-                                            <td>{{$data->scholarship_prcentage}}</td>
+                                            <td>{{$data->scholarship_percentage}}</td>
                                             <td>{{$data->course_name}}</td>
                                             <td>{{$data->registeration_fee}}</td>
                                             <td>{{$data->hos_mess_fee}}</td>
