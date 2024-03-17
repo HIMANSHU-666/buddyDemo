@@ -698,7 +698,7 @@
 
                                                 <label class="form-label">Course Name</label>
 
-                                                <input type="text" class="form-control" name="course__name" required>
+                                                <input type="text" class="form-control" name="course_name" required>
 
                                             </div>
 
