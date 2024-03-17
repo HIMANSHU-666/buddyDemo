@@ -1,0 +1,138 @@
+[23-Oct-2023 10:14:52 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\CoursesController::show() in /home2/bringyourbuddy/public_html/app/Http/Controllers/CoursesController.php on line 141
+[23-Oct-2023 12:17:23 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in /home2/bringyourbuddy/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 421
+[23-Oct-2023 12:18:27 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in /home2/bringyourbuddy/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 421
+[23-Oct-2023 12:19:25 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in /home2/bringyourbuddy/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 421
+[23-Oct-2023 12:19:32 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in /home2/bringyourbuddy/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 421
+[23-Oct-2023 12:22:02 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in /home2/bringyourbuddy/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 421
+[25-Oct-2023 06:10:09 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home2/bringyourbuddy/public_html/admin/app/Http/Controllers/ChangePasswordController.php on line 4
+[31-Oct-2023 09:33:13 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "view" does not exist in /home2/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php:912
+Stack trace:
+#0 /home2/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(912): ReflectionClass->__construct()
+#1 /home2/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build()
+#2 /home2/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(937): Illuminate\Container\Container->resolve()
+#3 /home2/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Foundation\Application->resolve()
+#4 /home2/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(922): Illuminate\Container\Container->make()
+#5 /home2/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(1454): Illuminate\Foundation\Application->make()
+#6 /home2/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(236): Illuminate\Container\Container->offsetGet()
+#7 /home2/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(207): Illuminate\Support\Facades\Facade::resolveFacadeInstance()
+#8 /home2/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(347): Illuminate\Support\Facades\Facade::getFacadeRoot()
+#9 /home2/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic()
+#10 /home2/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(697): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#11 /home2/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(678): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#12 /home2/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(609): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#13 /home2/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(515): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#14 /home2/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(432): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#15 /home2/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(217): Illuminate\Foundation\Exceptions\Handler->render()
+#16 /home2/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(194): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#17 /home2/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#18 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#19 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [view] does not exist. in /home2/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php:914
+Stack trace:
+#0 /home2/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build()
+#1 /home2/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(937): Illuminate\Container\Container->resolve()
+#2 /home2/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Foundation\Application->resolve()
+#3 /home2/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(922): Illuminate\Container\Container->make()
+#4 /home2/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(1454): Illuminate\Foundation\Application->make()
+#5 /home2/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(236): Illuminate\Container\Container->offsetGet()
+#6 /home2/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(207): Illuminate\Support\Facades\Facade::resolveFacadeInstance()
+#7 /home2/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(347): Illuminate\Support\Facades\Facade::getFacadeRoot()
+#8 /home2/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic()
+#9 /home2/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(697): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#10 /home2/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(678): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#11 /home2/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(609): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#12 /home2/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(515): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#13 /home2/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(432): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#14 /home2/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(217): Illuminate\Foundation\Exceptions\Handler->render()
+#15 /home2/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(194): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#16 /home2/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#17 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#18 {main}
+  thrown in /home2/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 914
+[01-Dec-2023 07:30:27 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/bringyourbuddy/public_html/admin/app/Http/Controllers/CourseCategoryController.php on line 51
+[01-Dec-2023 07:30:46 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/bringyourbuddy/public_html/admin/app/Http/Controllers/CourseCategoryController.php on line 51
+[13-Dec-2023 10:05:40 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:350
+Stack trace:
+#0 /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(697): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(678): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(609): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#4 /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(515): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#5 /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(432): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#6 /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(509): Illuminate\Foundation\Exceptions\Handler->render()
+#7 /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(148): Illuminate\Foundation\Http\Kernel->renderException()
+#8 /home/bringyourbuddy/public_html/admin/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle()
+#9 {main}
+  thrown in /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 350
+[13-Dec-2023 10:05:43 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:350
+Stack trace:
+#0 /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(697): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(678): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(609): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#4 /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(515): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#5 /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(432): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#6 /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(509): Illuminate\Foundation\Exceptions\Handler->render()
+#7 /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(148): Illuminate\Foundation\Http\Kernel->renderException()
+#8 /home/bringyourbuddy/public_html/admin/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle()
+#9 {main}
+  thrown in /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 350
+[13-Dec-2023 10:05:49 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:350
+Stack trace:
+#0 /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(697): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(678): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(609): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#4 /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(515): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#5 /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(432): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#6 /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(509): Illuminate\Foundation\Exceptions\Handler->render()
+#7 /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(148): Illuminate\Foundation\Http\Kernel->renderException()
+#8 /home/bringyourbuddy/public_html/admin/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle()
+#9 {main}
+  thrown in /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 350
+[13-Dec-2023 10:05:57 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:350
+Stack trace:
+#0 /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(697): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(678): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(609): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#4 /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(515): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#5 /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(432): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#6 /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(509): Illuminate\Foundation\Exceptions\Handler->render()
+#7 /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(148): Illuminate\Foundation\Http\Kernel->renderException()
+#8 /home/bringyourbuddy/public_html/admin/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle()
+#9 {main}
+  thrown in /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 350
+[13-Dec-2023 10:06:00 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:350
+Stack trace:
+#0 /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(697): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(678): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(609): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#4 /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(515): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#5 /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(432): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#6 /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(509): Illuminate\Foundation\Exceptions\Handler->render()
+#7 /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(148): Illuminate\Foundation\Http\Kernel->renderException()
+#8 /home/bringyourbuddy/public_html/admin/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle()
+#9 {main}
+  thrown in /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 350
+[13-Dec-2023 10:09:28 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:350
+Stack trace:
+#0 /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(697): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(678): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(609): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#4 /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(515): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#5 /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(432): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#6 /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(509): Illuminate\Foundation\Exceptions\Handler->render()
+#7 /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(148): Illuminate\Foundation\Http\Kernel->renderException()
+#8 /home/bringyourbuddy/public_html/admin/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle()
+#9 {main}
+  thrown in /home/bringyourbuddy/public_html/admin/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 350
+[13-Dec-2023 10:42:34 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.26. in /home/bringyourbuddy/public_html/admin/vendor/composer/platform_check.php on line 24
+[13-Dec-2023 10:42:43 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.26. in /home/bringyourbuddy/public_html/admin/vendor/composer/platform_check.php on line 24
+[13-Dec-2023 10:45:05 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.26. in /home/bringyourbuddy/public_html/admin/vendor/composer/platform_check.php on line 24
+[13-Dec-2023 10:45:38 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.26. in /home/bringyourbuddy/public_html/admin/vendor/composer/platform_check.php on line 24
+[13-Dec-2023 10:45:40 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.26. in /home/bringyourbuddy/public_html/admin/vendor/composer/platform_check.php on line 24
+[13-Dec-2023 10:45:46 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.26. in /home/bringyourbuddy/public_html/admin/vendor/composer/platform_check.php on line 24
