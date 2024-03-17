@@ -73,17 +73,24 @@
                                            
                                         </thead>
                                         <tbody>
+                                        @foreach($pagedata as $key => $data)
+                                            @php
+                                            $key++;
+                                            @endphp
                                             <tr>
-                                            <td>1</td>
-                                            <td>naman</td>
-                                            <td>bbb</td>
-                                            <td>kjdhjweh</td>
-                                            <td>5</td>
-                                            <td>55</td>
-                                            <td>55</td>
-                                            <td>55</td>
+                                            <td>{{$data->ref_no}}</td>
+                                            <td>{{$data->stu_name}}</td>
+                                            <td>{{$data->scholarship_prcentage}}</td>
+                                            <td>{{$data->course_name}}</td>
+                                            <td>{{$data->registeration_fee}}</td>
+                                            <td>{{$data->hos_mess_fee}}</td>
+                                            <td>{{$data->annual_tution_fee}}</td>
+                                            <td>{{$data->tution_fee_scholarship}}</td>
                                             <td><button class="btn btn-dark btn-sm" >Print</button></td>
                                             </tr>
+
+                                            @endforeach
+
                                         </tbody>
                                     </table>
                                 </div>
