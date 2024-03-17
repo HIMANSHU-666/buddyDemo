@@ -93,7 +93,7 @@ class AuthController extends Controller
  
     public function index()
     {
-        $stu = DB::table('student')->get();
+        $stu = DB::table('conditional_ol')->get();
         $agent = DB::table('agents')->get();
         $subagent = DB::table('agents')->where(['agent_type'=> 2, 'del_status' => 0])->get();
         $application = DB::table('student_application')->where('del_status',0)->get();
