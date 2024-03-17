@@ -61,14 +61,15 @@
                                         <thead>
 
                                             <tr>
-                                                <th>#</th>
-                                                <th>First Name</th>
-                                                <th>Partner Data</th>
-                                                <th>Email</th>
-                                                <th>Commission (%)</th>
-                                                <th>wallet Amount</th>
-                                                <th>switch</th>
-                                                <th>Action</th>
+                                                <th>Ref</th>
+                                                <th>student</th>
+                                                <th>scholarship(%)</th>
+                                                <th>course</th>
+                                                <th>Reg_fee</th>
+                                                <th>Hostel/mess fee</th>
+                                                <th>annual tution fee</th>
+                                                <th>tution fee with scholarship</th>
+                                                <th>action</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -80,6 +81,7 @@
                                             <td>55</td>
                                             <td>55</td>
                                             <td>55</td>
+                                            <td><button class="btn btn-dark btn-sm" >Print</button></td>
                                         </tbody>
                                     </table>
                                 </div>
