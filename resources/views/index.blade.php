@@ -38,7 +38,7 @@
               <div class="col-md-3">
                 <div class="card">
                   <div class="card header bg-primary p-2">
-                    <span class="fs-5 ms-2 text-white">Offer Letter</span>
+                    <span class="fs-5 ms-2 text-white">Offer Letter new</span>
                   </div>
                   <div class="card-body py-0">
                     <span class="fs-3 my-2">{{ $stucount }}</span>
