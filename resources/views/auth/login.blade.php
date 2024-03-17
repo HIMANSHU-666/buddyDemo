@@ -62,7 +62,7 @@
               </a>
             </div>
             <!-- /Logo -->
-            <h4 class="mb-2 text-center text-danger">Admin Login</h4>
+            <h4 class="mb-2 text-center text-dark">Admin Login</h4>
 
             <!-- Form -->
             <form action="{{ url('/') }}/login" method="POST" class="user">
@@ -106,7 +106,7 @@
               @enderror
 
               <div class="mb-3">
-                <button class="btn btn-danger d-grid w-100" type="submit">Login</button>
+                <button class="btn btn-warning d-grid w-100" type="submit">Login</button>
               </div>
             </form>
 
